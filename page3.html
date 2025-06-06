@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>كل يوم بشوف فيكي حاجة بحبها</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom right, #ffe0f0, #e1bee7);
+      font-family: 'Cairo', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+      direction: rtl;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff8f9;
+      border-radius: 25px;
+      padding: 35px;
+      max-width: 750px;
+      box-shadow: 0 0 15px rgba(186, 104, 200, 0.4);
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #8e24aa;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      color: #6a1b9a;
+      line-height: 1.8;
+    }
+
+    .next-btn {
+      margin-top: 25px;
+      padding: 10px 30px;
+      font-size: 18px;
+      background-color: #ba68c8;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .next-btn:hover {
+      background-color: #ab47bc;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>كل يوم بشوف فيكي حاجة بحبها</h2>
+    <p>
+      طريقة ضحكتك... بتطمنّي.<br>
+      كلامك... دايمًا حلو وبيفكرني بالراحة.<br>
+      حتى سكوتك... له معنى مميز بالنسبالي.<br>
+      مش بس شكلك... لأ، قلبك قبل أي حاجة.<br>
+      وكل يوم... بحس إني متعلق بيكي أكتر.
+    </p>
+    <button class="next-btn" onclick="goToNext()">التالي</button>
+  </div>
+
+  <script>
+    function goToNext() {
+      window.location.href = "page4.html";
+    }
+  </script>
+</body>
+</html>

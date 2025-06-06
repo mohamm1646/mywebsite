@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اعترف ليكي</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom right, #ffe4e1, #f8bbd0);
+      font-family: 'Tajawal', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      direction: rtl;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ad1457;
+      margin-bottom: 20px;
+    }
+
+    .start-btn {
+      padding: 15px 40px;
+      background-color: #ec407a;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .start-btn:hover {
+      background-color: #d81b60;
+    }
+
+    .note {
+      margin-top: 20px;
+      color: #6a1b9a;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>هل أنتي مستعدة؟</h1>
+  <button class="start-btn" onclick="start()">ابدئي</button>
+  <div class="note">أكملي... عشان تعرفي أنا عايز أقولك إيه 💬</div>
+
+  <script>
+    function start() {
+      window.location.href = "page2.html";
+    }
+  </script>
+
+</body>
+</html>

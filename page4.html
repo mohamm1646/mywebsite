@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>معاكي كل حاجة بتتغير</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom left, #f3e5f5, #fce4ec);
+      font-family: 'El Messiri', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+      direction: rtl;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fffafc;
+      border-radius: 25px;
+      padding: 35px;
+      max-width: 750px;
+      box-shadow: 0 0 15px rgba(240, 98, 146, 0.4);
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #ad1457;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      color: #6a1b9a;
+      line-height: 1.8;
+    }
+
+    .next-btn {
+      margin-top: 25px;
+      padding: 10px 30px;
+      font-size: 18px;
+      background-color: #f06292;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .next-btn:hover {
+      background-color: #ec407a;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>معاكي كل حاجة بتتغير</h2>
+    <p>
+      لما بكون حواليكي، بحس إني إنسان أحسن.<br>
+      بتكلم أحسن... بتصرف بلُطف أكتر... وبشوف الحياة بلون مختلف.<br>
+      وجودك زي نور بيطمن قلبي.<br>
+      عرفت يعني إيه الاهتمام الحقيقي... من غير ما تطلبي.<br>
+      بجد... وجودك فرق معايا.
+    </p>
+    <button class="next-btn" onclick="goToNext()">التالي</button>
+  </div>
+
+  <script>
+    function goToNext() {
+      window.location.href = "page5.html";
+    }
+  </script>
+</body>
+</html>
