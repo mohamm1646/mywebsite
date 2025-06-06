@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>من أول لحظة شوفتك</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom left, #fce4ec, #f8bbd0);
+      font-family: 'Reem Kufi', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+      direction: rtl;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff0f5;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 700px;
+      box-shadow: 0 0 15px rgba(255, 105, 135, 0.3);
+    }
+
+    h2 {
+      font-size: 30px;
+      color: #c2185b;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 22px;
+      color: #6a1b9a;
+      line-height: 1.8;
+    }
+
+    .next-btn {
+      margin-top: 25px;
+      padding: 10px 25px;
+      font-size: 18px;
+      background-color: #ec407a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .next-btn:hover {
+      background-color: #d81b60;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>من أول لحظة شوفتك...</h2>
+    <p>
+      من أول لحظة شوفتك، قلبي حس بحاجة مختلفة.<br>
+      كنتِ عادية بالنسبة للناس، بس بالنسبالي... كنتي كل حاجة.<br>
+      كل مرة بشوفك فيها، بحس إن اليوم بقى أجمل.<br>
+      ومشاعري... بتكبر من غير ما أتكلم.
+    </p>
+    <button class="next-btn" onclick="goToNext()">التالي</button>
+  </div>
+
+  <script>
+    function goToNext() {
+      window.location.href = "page3.html";
+    }
+  </script>
+</body>
+</html>
